@@ -11,7 +11,6 @@ Source:		http://members.tripod.com/~uutil/slap/%{name}%{version}.tar.bz2
 Source1:	http://members.tripod.com/~uutil/slap/mjsulib3r0p1.tar.bz2
 
 Url:		http://members.tripod.com/~uutil/slap/
-BuildRoot:	%_tmppath/%name-%version-%release-root
 
 %description
 SLAP is a UNIX command line program that prints labels on many SEIKO Smart
