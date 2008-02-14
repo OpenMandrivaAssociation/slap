@@ -4,6 +4,7 @@ Version:	2r4p4
 Release:	%mkrel 8
 License:	GPL
 Group:		Publishing
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 # SLAP
 Source:		http://members.tripod.com/~uutil/slap/%{name}%{version}.tar.bz2
