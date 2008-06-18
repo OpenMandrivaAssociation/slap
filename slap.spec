@@ -1,7 +1,7 @@
 Summary:	SLAP - SEIKO SmartLabel Printing Utility
 Name:		slap
 Version:	2r4p4
-Release:	%mkrel 9
+Release:	%mkrel 10
 License:	GPL
 Group:		Publishing
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
