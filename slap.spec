@@ -33,14 +33,14 @@ chmod -R u+w *
 # Compile static library
 mkdir mjsulibfiles
 cd mjsulib/
-./Configure $RPM_BUILD_DIR/%name/mjsulibfiles
+./Configure %{_builddir}/%name/mjsulibfiles
 %make install
 cd ..
 
 # Compile SLAP
 yes | ./Configure %{buildroot}/usr
 # Set library path
-perl -p -i -e 's!/somewhere!/'$RPM_BUILD_DIR'/%name/mjsulibfiles!' makefile
+perl -p -i -e 's!/somewhere!/'%{_builddir}'/%name/mjsulibfiles!' makefile
 # Correct path for man pages
 perl -p -i -e 's!man/man1!share/man/man1!' makefile
 %make
