@@ -38,7 +38,7 @@ cd mjsulib/
 cd ..
 
 # Compile SLAP
-yes | ./Configure $RPM_BUILD_ROOT/usr
+yes | ./Configure %{buildroot}/usr
 # Set library path
 perl -p -i -e 's!/somewhere!/'$RPM_BUILD_DIR'/%name/mjsulibfiles!' makefile
 # Correct path for man pages
