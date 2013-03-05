@@ -1,3 +1,5 @@
+define debug_package %{nil}
+
 Summary:	SLAP - SEIKO SmartLabel Printing Utility
 Name:		slap
 Version:	2r4p4
