@@ -6,7 +6,7 @@ Version:	2r4p4
 Release:	19
 License:	GPL
 Group:		Publishing
-Url:		http://www.shelldozer.im/slap/
+Url:		https://www.shelldozer.im/slap/
 # SLAP
 Source0:	http://members.tripod.com/~uutil/slap/%{name}%{version}.tar.bz2
 # Static library needed by SLAP
