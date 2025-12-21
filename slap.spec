@@ -12,6 +12,7 @@ Source0:	http://members.tripod.com/~uutil/slap/%{name}%{version}.tar.bz2
 # Static library needed by SLAP
 Source1:	http://members.tripod.com/~uutil/slap/mjsulib3r0p1.tar.bz2
 
+BuildRequires:	make
 %description
 SLAP is a UNIX command line program that prints labels on many SEIKO Smart
 Label Printers. It prints only text, no graphics, PostScript, and so on.
